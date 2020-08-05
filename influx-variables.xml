@@ -1,0 +1,19 @@
+<ArgumehashTreents guiclass="ArgumentsPanel" testclass="Arguments" testname="Test Case Variables" enabled="true">
+  <collectionProp name="Arguments.arguments">
+  <elementProp name="influxDbServer" elementType="Argument">
+      <stringProp name="Argument.name">influxDbServer</stringProp>
+      <stringProp name="Argument.value">${__property(influxDbServer,,changeme)}</stringProp>
+      <stringProp name="Argument.metadata">=</stringProp>
+    </elementProp>
+    <elementProp name="influxdbToken" elementType="Argument">
+      <stringProp name="Argument.name">influxdbToken</stringProp>
+      <stringProp name="Argument.value">${__property(influxdbToken,,changeme)}</stringProp>
+      <stringProp name="Argument.metadata">=</stringProp>
+    </elementProp>
+    <elementProp name="influxDbOrgId" elementType="Argument">
+      <stringProp name="Argument.name">influxDbOrgId</stringProp>
+      <stringProp name="Argument.value">${__property(influxDbOrgId,,changeme)}</stringProp>
+      <stringProp name="Argument.metadata">=</stringProp>
+    </elementProp>
+  </collectionProp>
+</ArgumehashTreents>
